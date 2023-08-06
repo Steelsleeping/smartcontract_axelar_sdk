@@ -2,9 +2,11 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+eth-rpc-url = "https://polygon-mumbai.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
 
 remappings = [
-    "@openzeppelin/contracts=node_modules/@openzeppelin/contracts/"
+    "@openzeppelin/contracts=node_modules/@openzeppelin/contracts/",
+    "@axelar-network/axelar-gmp-sdk-solidity=node_modules/@axelar-network/axelar-gmp-sdk-solidity"
 ]
